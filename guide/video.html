@@ -7,13 +7,15 @@
 	<meta name="viewport" content="width=1320px">
 	<title>KOK_Video</title>
 	<link rel="shortcut icon" href="/assets/img/favicon.png" type="image/x-icon">
-	<link href="css/style.css" rel="stylesheet" type="text/css">
 
 	 <!-- Link Swiper's CSS -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.css"
     />
+
+	<!-- 외부 css 연결 -->
+	<link href="css/videostyle.css" rel="stylesheet" type="text/css">
 
 </head>
 
@@ -23,16 +25,22 @@
 	<!-- Swiper -->
     <div class="swiper mySwiper">
       <div class="swiper-wrapper">
+
         <div class="swiper-slide">
-			<video src=""></video>
+			<video class="logomotion" src="/guide/video/KOK_intro.mp4" autoplay muted loop playsinline></video>
 		</div>
-        <div class="swiper-slide">Slide 2</div>
+
+        <div class="swiper-slide">
+			<video class="brandmotion" src="/guide/video/brand_story.mp4" autoplay muted loop playsinline></video>
+		</div>
       </div>
+
       <div class="swiper-button-next"></div>
       <div class="swiper-button-prev"></div>
       <div class="swiper-pagination"></div>
     </div>
 
+	
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.js"></script>
 
