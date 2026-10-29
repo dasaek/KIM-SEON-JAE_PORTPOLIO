@@ -15,22 +15,21 @@ div img {
   display: block;
 }
 
-.fixed {
-  position: fixed;
-  right: 100px;
-  bottom: 120px;
-  z-index: 100;
+.top {
+    position: fixed;
+    bottom: 100px;
+    right: 50px;
+    z-index: 50;
 }
 
+.back {
+    position: fixed;
+    bottom: 25px;
+    right: 50px;
+    z-index: 50;
+}
 .fixed:hover {
   opacity: 0.8;
-}
-
-.fixed2 {
-  position: fixed;
-  right: 100px;
-  bottom: 40px;
-  z-index: 100;
 }
 
 .fixed2:hover {

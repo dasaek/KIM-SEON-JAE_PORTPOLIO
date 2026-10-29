@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+    margin-bottom: -1px;
+}
+
+.top {
+    position: fixed;
+    bottom: 100px;
+    right: 50px;
+    z-index: 50;
+}
+
+.back {
+    position: fixed;
+    bottom: 25px;
+    right: 50px;
+    z-index: 50;
+}
